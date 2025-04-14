@@ -69,9 +69,10 @@ conda activate FN
 ```
 
 * **FastTree**: This is a required dependency but **must be installed manually by the user**. ([Installation Guide](https://morgannprice.github.io/fasttree/))  
-  - We recommend ensuring the `FastTree` binary is available in your system's `PATH`, ideally linked in a directory like `/usr/local/bin`.
+  - Make sure the `FastTree` binary is available in your system's `PATH`, ideally linked to a directory like `/usr/local/bin`.
 
-* **TreeCluster**: The `TreeCluster-master` directory is included in `Finalign/scripts/` as a required dependency, but you **must set the correct path in [`functions_global.py`](scripts/functions_global.py)`** to use it properly.
+* **TreeCluster**: The [`TreeCluster-master`](https://github.com/niemasd/TreeCluster.git) directory is included in `Finalign/scripts/` as a required dependency, but you **must set the correct path in [`functions_global.py`](scripts/functions_global.py)** to use it properly.
+
 
 This will install all necessary dependencies, including:
 
