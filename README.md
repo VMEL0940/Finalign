@@ -15,7 +15,36 @@ You can retrieve example data in `data/example`.
 # Command line
 You can run FINALGIN from the command line as follows:
 
-Run 'finalign -h' to display all available options. 
+Run ``` python Finalign_CLI.py -h ```  to display all available options. 
+
+```
+usage: Finalign_CLI.py [-h] --input_fasta INPUT_FASTA --metadata_csv METADATA_CSV
+                       [--date {YMD,Y}] --out_dir OUT_DIR --out_name OUT_NAME
+                       [--resolution_strategy {d,p,g}] [--resolution_mode {clean,raw}]
+                       [--proceed_trimming {yes,no}] [--n_threshold N_THRESHOLD]
+                       [--wgd WGD]
+
+🧬 FINALIGN: Resolve your MSA for analysis
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --input_fasta INPUT_FASTA         : Path to input MSA FASTA file
+  --metadata_csv METADATA_CSV       : Path to metadata CSV file
+  --date {YMD,Y}                    : If using full date {YMD} or using only Year {Y}
+  --out_dir OUT_DIR                 : Directory to save output files
+  --out_name OUT_NAME`              : Name of output files
+  --resolutionary_strategy {d,p,g}  : Preferred resolution strategy
+                                        {d} = Distance-based consensus
+                                        {p} = Phylogenetic-based consensus (default)
+                                        {g} = Global MSA consensus
+  --resolution_mode {clean,raw}     : Fallback behavior for single N
+                                        clean = Applies fallback strategy when consensus types disagree (default)
+                                        raw = Applies resolution only when all consensus sources agree
+  --proceed_trimming {yes,no}       : Trim sequences to ORF region based on start/stop codons (default: no)
+  --n_threshold N_THRESHOLD         : Maximum allowed proportion of Ns (Default: 0.02)
+  --wgd WGD                         : Weight of genetic distance (0–1 (Default: 0.5); Weight of time automatically 1-wgd)
+```
+
 To run the example, run
 
 ```
