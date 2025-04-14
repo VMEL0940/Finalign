@@ -53,8 +53,8 @@ import subprocess
 
 # %%
 # Append the path to the local TreeCluster folder
-#sys.path.append("./TreeCluster-master")  # Adjust if needed
-sys.path.append("./TreeCluster-master")
+
+sys.path.append("/content/TreeCluster")
 import TreeCluster
 
 # %% [markdown]
@@ -433,7 +433,7 @@ def build_fasttree_and_sweep_thresholds(
 
         cluster_dict = {i + 1: cluster for i, cluster in enumerate(restored_clusters)}
         threshold_results[round(threshold, 5)] = cluster_dict
-        #print(f"Threshold {threshold:.3f} → {len(cluster_dict)} clusters")
+        print(f"Threshold {threshold:.3f} → {len(cluster_dict)} clusters")
 
     return threshold_results, newick_path, tmp_mapping
 
