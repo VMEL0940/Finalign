@@ -11,6 +11,7 @@ You can retrieve example data in `/example`.
 
 # Command line
 You can run FINALGIN from the command line as follows:
+
 **Note**: Your input should be the result of an alignment tool such as MAFFT, and we strongly recommend trimming your MSA dataset to start with an **AUG** codon and end with valid stop codons **(UGA, UAA, UAG)**.
 
 Run ``` python Finalign_CLI.py -h ```  to display all available options. 
@@ -69,7 +70,7 @@ conda activate FN
 
 This will install all necessary dependencies, including:
 
-* **Core libraries**: numpy, pandas, scikit-learn, scipy, matplotlib, etc.
+* **Core libraries**: numpy, pandas, scipy, matplotlib, etc.
 
 * **Bioinformatics tools**: biopython, ete3, treeswift
 
