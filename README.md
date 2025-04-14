@@ -39,7 +39,7 @@ This will install all necessary dependencies, including:
 
 * Visualization: seaborn, yellowbrick, logomaker
 
-You can find the [environment.yml]() file in this repository.
+You can find the [environment.yml](environment.yml) file in this repository.
 
 # Google Colab
 You can run FINALGIN on the Google Golab https://colab.research.google.com/drive/1FfuJgz5Mj_3WV1-_rJCrghUhJrWgVbQh?usp=sharing
