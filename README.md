@@ -6,7 +6,7 @@ Multiple sequence alignment (MSA) analysis of viral genomes is indispensable for
 ![Figure1](https://github.com/user-attachments/assets/0ae0edb2-7b5a-49dd-afbc-bc674bece8e8)
 
 # Quick start
-Download FINALGIN and make sure [dependencies](#dependencies-and-os) are installed. For the quickest start, just run our example:
+Download FINALGIN and make sure [dependencies](#Dependencies) are installed. For the quickest start, just run our example:
 
 `[path/to/FINALIGN]/./FINALIGN -s`
 
