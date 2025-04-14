@@ -79,7 +79,7 @@ This will install all necessary dependencies, including:
 You can find the [environment.yml](environment.yml) file in this repository.
 
 # Google Colab
-You can run FINALGIN on the Google Golab https://colab.research.google.com/drive/1FfuJgz5Mj_3WV1-_rJCrghUhJrWgVbQh?usp=sharing
+You can run FINALGIN on the Google Golab https://colab.research.google.com/drive/1utNaM6aV9R19SY71ULpzDTIVN3RnUHxD?usp=sharing
 
 
 # Citation
