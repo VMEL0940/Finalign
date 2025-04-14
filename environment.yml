@@ -1,0 +1,32 @@
+name: FN
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - tqdm
+  - patsy
+  - statsmodels
+  - yellowbrick
+  - biopython
+  - pillow
+  - ace_tools_open
+  - logomaker
+  - treeswift
+  - niemads
+  - ete3
+  - pip
+  - pip:
+      - fair-esm==0.4.0
+      - torch==2.1.0+cu118
+      - torchvision==0.16.0+cu118
+      - torchaudio==2.1.0+cu118
+      - --extra-index-url https://download.pytorch.org/whl/cu118
+
