@@ -68,9 +68,11 @@ conda env create -f environment.yml
 conda activate FN
 ```
 
-* **FastTree**: This is a required dependency but **must be installed manually by the user**. (https://morgannprice.github.io/fasttree/)
-  - We recommend ensuring the FastTree binary is available in your system's PATH, ideally linked in a directory like /usr/local/bin.
-* **TreeCluster**: The [TreeCluster-master](#TreeCluster-master) is included as a required dependency, but you **must set the correct path in [functions_global.py](#functions_global.py) to use it properly.**
+* **FastTree**: This is a required dependency but **must be installed manually by the user**. ([Installation Guide](https://morgannprice.github.io/fasttree/))  
+  - We recommend ensuring the `FastTree` binary is available in your system's `PATH`, ideally linked in a directory like `/usr/local/bin`.
+
+* **TreeCluster**: The `TreeCluster-master` directory is included in `Finalign/scripts/` as a required dependency, but you **must set the correct path in [`functions_global.py`](Finalign/scripts/functions_global.py)`** to use it properly.
+
 This will install all necessary dependencies, including:
 
 * **Core libraries**: numpy, pandas, scipy, matplotlib, etc.
