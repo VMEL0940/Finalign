@@ -6,14 +6,12 @@ Multiple sequence alignment (MSA) analysis of viral genomes is indispensable for
 ![Figure1](https://github.com/user-attachments/assets/0ae0edb2-7b5a-49dd-afbc-bc674bece8e8)
 
 # Quick start
-Download FINALGIN and make sure [dependencies](#Dependencies) are installed. For the quickest start, just run our example:
-
-`[path/to/FINALIGN]/./FINALIGN -s`
-
-You can retrieve example data in `data/example`.
+Download FINALGIN and make sure [dependencies](#Dependencies) are installed. For the quickest start, just run our [example](#example).
+You can retrieve example data in `/example`.
 
 # Command line
 You can run FINALGIN from the command line as follows:
+**Note**: Your input should be the result of an alignment tool such as MAFFT, and we strongly recommend trimming your MSA dataset to start with an **AUG** codon and end with valid stop codons **(UGA, UAA, UAG)**.
 
 Run ``` python Finalign_CLI.py -h ```  to display all available options. 
 
@@ -27,7 +25,7 @@ usage: Finalign_CLI.py [-h] --input_fasta INPUT_FASTA --metadata_csv METADATA_CS
 🧬 FINALIGN: Resolve your MSA for analysis
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help                        : show this help message and exit
   --input_fasta INPUT_FASTA         : Path to input MSA FASTA file
   --metadata_csv METADATA_CSV       : Path to metadata CSV file
   --date {YMD,Y}                    : If using full date {YMD} or using only Year {Y}
@@ -45,6 +43,7 @@ optional arguments:
   --wgd WGD                         : Weight of genetic distance (0–1 (Default: 0.5); Weight of time automatically 1-wgd)
 ```
 
+# Example
 To run the example, run
 
 ```
