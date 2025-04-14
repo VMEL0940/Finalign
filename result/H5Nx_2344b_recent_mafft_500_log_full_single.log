@@ -1,0 +1,38 @@
+[Cluster 3 - H5N1|A/swan/Germany-ST/2024AI04233/2024|EPI3687871|2024-09-11]
+   Original codon TTN (pos: 349 (1045-1047)) 
+   Dist_con=TTT (F), Phylo_con=TTT (F), Global_con=TTT (F)  
+      ✔️ processed by silent: N =>T (F)  
+
+   Original codon GGN (pos: 350 (1048-1050)) 
+   Dist_con=GGG (G), Phylo_con=GGG (G), Global_con=GGG (G)  
+      ✔️ processed by silent: N =>G (G)  
+
+   Original codon GGN (pos: 358 (1072-1074)) 
+   Dist_con=GGA (G), Phylo_con=GGA (G), Global_con=GGA (G)  
+      ✔️ processed by silent: N =>A (G)  
+
+
+[Cluster 3 - H5N1|A/yellow-legged-gull/Italy/24VIR11136-1/2024|EPI3735912|2024-11-20]
+   Original codon CNT (pos: 7 (19-21)) 
+   Dist_con=CTT (L), Phylo_con=CTT (L), Global_con=CTT (L)  
+      ✔️ processed by silent: N =>T (L)  
+
+
+[Cluster 3 - H5N5|A/Cormorant/England/281523/2024|EPI3625550|2024-09-30]
+   Original codon NAA (pos: 186 (556-558)) 
+   Dist_con=GAA (E), Phylo_con=GAA (E), Global_con=GAA (E)  
+      ✔️ processed by silent: N =>G (E)  
+
+   Original codon CTN (pos: 206 (616-618)) 
+   Dist_con=CTC (L), Phylo_con=CTC (L), Global_con=CTC (L)  
+      ✔️ processed by silent: N =>C (L)  
+
+   Original codon NAT (pos: 303 (907-909)) 
+   Dist_con=AAT (N), Phylo_con=AAT (N), Global_con=AAT (N)  
+      ✔️ processed by silent: N =>A (N)  
+
+   Original codon CNA (pos: 339 (1015-1017)) 
+   Dist_con=CTA (L), Phylo_con=CTA (L), Global_con=CTA (L)  
+      ✔️ processed by silent: N =>T (L)  
+
+

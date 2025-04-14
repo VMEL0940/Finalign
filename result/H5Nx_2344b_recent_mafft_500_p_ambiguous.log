@@ -1,0 +1,386 @@
+[H5N1|A/chicken/USA/24-037219-002/2024|EPI3747025|2024-12-10]
+   Original codon AMA (pos: 404 (1210-1212)) 
+   Dist_con=AAA (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: M{A,C} =>A (K)  
+
+[H5N1|A/Duck/Volta/AI-T-24-452/2024|EPI3596941|2024-07-05]
+   Original codon ASA (pos: 248 (742-744)) 
+   Dist_con=ACA (T), Phylo_con=ACA (T), Global_con=ACA (T)  
+       ✔️ processed by silent: S{C,G} =>C (T)  
+
+[H5N1|A/chicken/USA/24-031286-006/2024|EPI3649515|2024-10-15]
+   Original codon CAK (pos: 18 (52-54)) 
+   Dist_con=CAG (Q), Phylo_con=CAG (Q), Global_con=CAG (Q)  
+       ✔️ processed by silent: K{G,T} =>G (Q)  
+
+[H5N1|A/Morus_bassanus/Spain/4274-27_24VIR10678-45/2024|EPI3729897|2024-10-23]
+   Original codon AYT (pos: 332 (994-996)) 
+   Dist_con=ACT (T), Phylo_con=ACT (T), Global_con=ACT (T)  
+       ✔️ processed by silent: Y{C,T} =>C (T)  
+
+[H5N1|A/laying-hen/Italy/24VIR11586-3/2024|EPI3774162|2024-12-30]
+   Original codon GGR (pos: 193 (577-579)) 
+   Dist_con=GGG (G), Phylo_con=GGG (G), Global_con=GGG (G)  
+       ✔️ processed by silent: R{A,G} =>G (G)  
+
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+   Original codon TCY (pos: 386 (1156-1158)) 
+   Dist_con=TCC (S), Phylo_con=TCC (S), Global_con=TCC (S)  
+       ✔️ processed by silent: Y{C,T} =>C (S)  
+
+   Original codon RGG (pos: 560 (1678-1680)) 
+   Dist_con=GGG (G), Phylo_con=GGG (G), Global_con=GGG (G)  
+       ✔️ processed by silent: R{A,G} =>G (G)  
+
+   Original codon TSG (pos: 561 (1681-1683)) 
+   Dist_con=TCG (S), Phylo_con=TCG (S), Global_con=TCG (S)  
+       ✔️ processed by silent: S{C,G} =>C (S)  
+
+[H5N1|A/chicken/Northern-Ireland/25-002179_2-14310_25VIR1796-7/2025|EPI4114710|2025-02-22]
+   Original codon GYA (pos: 25 (73-75)) 
+   Dist_con=GCA (A), Phylo_con=GCA (A), Global_con=GCA (A)  
+       ✔️ processed by silent: Y{C,T} =>C (A)  
+
+   Original codon RAT (pos: 171 (511-513)) 
+   Dist_con=GAT (D), Phylo_con=GAT (D), Global_con=GAT (D)  
+       ✔️ processed by silent: R{A,G} =>G (D)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+[H5N1|A/common-shelduck/Italy/24VIR11623-6/2024|EPI3853264|2024-12-24]
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+   Original codon CYT (pos: 330 (988-990)) 
+   Dist_con=CTT (L), Phylo_con=CTT (L), Global_con=CTT (L)  
+       ✔️ processed by silent: Y{C,T} =>T (L)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+   Original codon GCR (pos: 351 (1051-1053)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+[H5N5|A/White-tailed_eagle/Norway/2024-07-14/2024|EPI2966934|2024-01-16]
+   Original codon GCR (pos: 539 (1615-1617)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+[H5N1|A/turkey/Italy/25VIR112-2/2025|EPI3849362|2025-01-07]
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+[H5N1|A/mute_swan/Slovakia/Vh-2078/2024|EPI3766392|2024-10-26]
+   Original codon AMA (pos: 52 (154-156)) 
+   Dist_con=ACA (T), Phylo_con=ACA (T), Global_con=ACA (T)  
+       ✔️ processed by silent: M{A,C} =>C (T)  
+
+[H5N1|A/chicken/USA/24-034440-001/2024|EPI3677595|2024-11-16]
+   Original codon CAR (pos: 361 (1081-1083)) 
+   Dist_con=CAG (Q), Phylo_con=CAG (Q), Global_con=CAG (Q)  
+       ✔️ processed by silent: R{A,G} =>G (Q)  
+
+[H5N1|A/red-tailed_hawk/Massachusetts/004865-019/2024|EPI3980351|2024-01-13]
+   Original codon GAY (pos: 244 (730-732)) 
+   Dist_con=GAC (D), Phylo_con=GAC (D), Global_con=GAC (D)  
+       ✔️ processed by silent: Y{C,T} =>C (D)  
+
+   Original codon AGY (pos: 260 (778-780)) 
+   Dist_con=AGT (S), Phylo_con=AGT (S), Global_con=AGT (S)  
+       ✔️ processed by silent: Y{C,T} =>T (S)  
+
+   Original codon CTR (pos: 339 (1015-1017)) 
+   Dist_con=CTA (L), Phylo_con=CTA (L), Global_con=CTA (L)  
+       ✔️ processed by silent: R{A,G} =>A (L)  
+
+[H5N1|A/mute-swan/Croatia/3_24VIR670-9/2024|EPI3093143|2024-01-09]
+   Original codon RAC (pos: 84 (250-252)) 
+   Dist_con=GAC (D), Phylo_con=GAC (D), Global_con=GAC (D)  
+       ✔️ processed by silent: R{A,G} =>G (D)  
+
+[H5N1|A/mute_swan/Austria/24144823-001/2024|EPI3640755|2024-11-04]
+   Original codon ATR (pos: 495 (1483-1485)) 
+   Dist_con=ATG (M), Phylo_con=ATG (M), Global_con=ATG (M)  
+       ✔️ processed by silent: R{A,G} =>G (M)  
+
+[H5N5|A/Great_Black-Backed_Gull/NS/FAV-0026-4/2025|EPI4019230|2024-12-10]
+   Original codon GGR (pos: 193 (577-579)) 
+   Dist_con=GGG (G), Phylo_con=GGG (G), Global_con=GGG (G)  
+       ✔️ processed by silent: R{A,G} =>G (G)  
+
+   Original codon GAR (pos: 496 (1486-1488)) 
+   Dist_con=GAA (E), Phylo_con=GAA (E), Global_con=GAA (E)  
+       ✔️ processed by silent: R{A,G} =>A (E)  
+
+[H5N1|A/canada_goose/Massachusetts/014126-032/2024|EPI3980751|2024-02-12]
+   Original codon AMA (pos: 283 (847-849)) 
+   Dist_con=AAA (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: M{A,C} =>A (K)  
+
+[H5N1|A/mute_swan/Austria/24148729-001/2024|EPI3721738|2024-11-09]
+   Original codon TTY (pos: 246 (736-738)) 
+   Dist_con=TTC (F), Phylo_con=TTC (F), Global_con=TTC (F)  
+       ✔️ processed by silent: Y{C,T} =>C (F)  
+
+[H5N1|A/turkey/Denmark/00998-5/2024|EPI3091454|2024-02-04]
+   Original codon GRT (pos: 70 (208-210)) 
+   Dist_con=GAT (D), Phylo_con=GAT (D), Global_con=GAT (D)  
+       ✔️ processed by silent: R{A,G} =>A (D)  
+
+[H5N1|A/EuropeanHerringGull/France/24P015392/2024|EPI3651338|2024-08-16]
+   Original codon CRA (pos: 234 (700-702)) 
+   Dist_con=CAA (Q), Phylo_con=CAA (Q), Global_con=CAA (Q)  
+       ✔️ processed by silent: R{A,G} =>A (Q)  
+
+[H5N1|A/Mute_Swan/Germany-MV/2024AI03518/2024|EPI3688004|2024-07-19]
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+[H5N1|A/white-winged_scoter/Massachusetts/014126-002/2024|EPI3980033|2024-02-27]
+   Original codon AAY (pos: 417 (1249-1251)) 
+   Dist_con=AAT (N), Phylo_con=AAT (N), Global_con=AAT (N)  
+       ✔️ processed by silent: Y{C,T} =>T (N)  
+
+[H5N1|A/canada_goose/Massachusetts/014126-027/2024|EPI3980783|2024-02-14]
+   Original codon GGR (pos: 358 (1072-1074)) 
+   Dist_con=GGA (G), Phylo_con=GGA (G), Global_con=GGA (G)  
+       ✔️ processed by silent: R{A,G} =>A (G)  
+
+[H5N5|A/Crow/Norway/2024-07-2937-4/2024|EPI3650267|2024-10-31]
+   Original codon GTR (pos: 498 (1492-1494)) 
+   Dist_con=GTA (V), Phylo_con=GTG (V), Global_con=GTG (V)  
+       ✔️ processed by silent: R{A,G} =>G (V)  
+
+[H5N1|A/chicken/USA/24-031666-032/2024|EPI3649848|2024-10-25]
+   Original codon AGR (pos: 421 (1261-1263)) 
+   Dist_con=AGG (R), Phylo_con=AGG (R), Global_con=AGG (R)  
+       ✔️ processed by silent: R{A,G} =>G (R)  
+
+[H5N1|A/eurasian-wigeon/Italy/24VIR10548-71/2024|EPI3735936|2024-11-23]
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+   Original codon RGG (pos: 560 (1678-1680)) 
+   Dist_con=GGG (G), Phylo_con=GGG (G), Global_con=GGG (G)  
+       ✔️ processed by silent: R{A,G} =>G (G)  
+
+[H5N1|A/turkey/Italy/25VIR69-2/2025|EPI3849307|2025-01-04]
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+   Original codon RGG (pos: 560 (1678-1680)) 
+   Dist_con=GGG (G), Phylo_con=GGG (G), Global_con=GGG (G)  
+       ✔️ processed by silent: R{A,G} =>G (G)  
+
+   Original codon TSG (pos: 561 (1681-1683)) 
+   Dist_con=TCG (S), Phylo_con=TCG (S), Global_con=TCG (S)  
+       ✔️ processed by silent: S{C,G} =>C (S)  
+
+[H5N1|A/Larus_michaellis/Spain/3268-13_24VIR10678-32/2024|EPI3729807|2024-09-17]
+   Original codon CAY (pos: 312 (934-936)) 
+   Dist_con=CAT (H), Phylo_con=CAT (H), Global_con=CAT (H)  
+       ✔️ processed by silent: Y{C,T} =>T (H)  
+
+[H5N1|A/broiler/Italy/24VIR11539-2/2024|EPI3774142|2024-12-24]
+   Original codon GAY (pos: 84 (250-252)) 
+   Dist_con=GAC (D), Phylo_con=GAC (D), Global_con=GAC (D)  
+       ✔️ processed by silent: Y{C,T} =>C (D)  
+
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+   Original codon RGG (pos: 560 (1678-1680)) 
+   Dist_con=GGG (G), Phylo_con=GGG (G), Global_con=GGG (G)  
+       ✔️ processed by silent: R{A,G} =>G (G)  
+
+   Original codon TSG (pos: 561 (1681-1683)) 
+   Dist_con=TCG (S), Phylo_con=TCG (S), Global_con=TCG (S)  
+       ✔️ processed by silent: S{C,G} =>C (S)  
+
+[H5N1|A/laying-hen/Italy/24VIR11319-1/2024|EPI3769497|2024-12-19]
+   Original codon RAT (pos: 171 (511-513)) 
+   Dist_con=GAT (D), Phylo_con=GAT (D), Global_con=GAT (D)  
+       ✔️ processed by silent: R{A,G} =>G (D)  
+
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+[H5N1|A/chicken/USA/24-031285-012/2024|EPI3649587|2024-10-16]
+   Original codon TCR (pos: 144 (430-432)) 
+   Dist_con=TCA (S), Phylo_con=TCA (S), Global_con=TCA (S)  
+       ✔️ processed by silent: R{A,G} =>A (S)  
+
+[H5N1|A/anser/Slovenia/PER130-24TAZ_24VIR9358-5/2024|EPI3637620|2024-02-07]
+   Original codon GRA (pos: 493 (1477-1479)) 
+   Dist_con=GAA (E), Phylo_con=GAA (E), Global_con=GAA (E)  
+       ✔️ processed by silent: R{A,G} =>A (E)  
+
+[H5N1|A/Larus_michaellis/Spain/2836-4_24VIR10678-24/2024|EPI3729752|2024-08-12]
+   Original codon MTT (pos: 464 (1390-1392)) 
+   Dist_con=CTT (L), Phylo_con=CTT (L), Global_con=CTT (L)  
+       ✔️ processed by silent: M{A,C} =>C (L)  
+
+[H5N5|A/Great_Black-Backed_Gull/NS/FAV-0050-1/2025|EPI4019286|2024-11-25]
+   Original codon AAM (pos: 326 (976-978)) 
+   Dist_con=AAC (N), Phylo_con=AAC (N), Global_con=AAC (N)  
+       ✔️ processed by silent: M{A,C} =>C (N)  
+
+[H5N1|A/mute_swan/Austria/24142228-002/2024|EPI3789978|2024-10-28]
+   Original codon CYC (pos: 157 (469-471)) 
+   Dist_con=CCC (P), Phylo_con=CCC (P), Global_con=CCC (P)  
+       ✔️ processed by silent: Y{C,T} =>C (P)  
+
+[H5N1|A/chicken/USA/24-031285-011/2024|EPI3649595|2024-10-16]
+   Original codon TCR (pos: 144 (430-432)) 
+   Dist_con=TCA (S), Phylo_con=TCA (S), Global_con=TCA (S)  
+       ✔️ processed by silent: R{A,G} =>A (S)  
+
+[H5N1|A/yellow-legged-gull/Italy/24VIR11136-1/2024|EPI3735912|2024-11-20]
+   Original codon RAT (pos: 171 (511-513)) 
+   Dist_con=GAT (D), Phylo_con=GAT (D), Global_con=GAT (D)  
+       ✔️ processed by silent: R{A,G} =>G (D)  
+
+   Original codon RAA (pos: 201 (601-603)) 
+   Dist_con=GAA (E), Phylo_con=GAA (E), Global_con=GAA (E)  
+       ✔️ processed by silent: R{A,G} =>G (E)  
+
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+   Original codon RGG (pos: 560 (1678-1680)) 
+   Dist_con=GGG (G), Phylo_con=GGG (G), Global_con=GGG (G)  
+       ✔️ processed by silent: R{A,G} =>G (G)  
+
+[H5N1|A/large-billed_crow/Hokkaido/B134/2024|EPI3539827|2024-04-09]
+   Original codon AAY (pos: 417 (1249-1251)) 
+   Dist_con=AAT (N), Phylo_con=AAT (N), Global_con=AAT (N)  
+       ✔️ processed by silent: Y{C,T} =>T (N)  
+
+[H5N1|A/swan/Croatia/V-26-24-2_25VIR117-8/2024|EPI3861469|2024-03-06]
+   Original codon ARA (pos: 161 (481-483)) 
+   Dist_con=AGA (R), Phylo_con=AGA (R), Global_con=AGA (R)  
+       ✔️ processed by silent: R{A,G} =>G (R)  
+
+   Original codon AAR (pos: 342 (1024-1026)) 
+   Dist_con=AAG (K), Phylo_con=AAG (K), Global_con=AAG (K)  
+       ✔️ processed by silent: R{A,G} =>G (K)  
+
+[H5N1|A/mute_swan/Poland/MB428NMJ/2024(H5N1)|EPI3686193|2024-10-31]
+   Original codon AAK (pos: 135 (403-405)) 
+   Dist_con=AAG (K), Phylo_con=AAG (K), Global_con=AAG (K)  
+       ✔️ processed by silent: K{G,T} =>G (K)  
+
+[H5N1|A/chicken/Italy/25VIR67-1/2025|EPI3849299|2025-01-02]
+   Original codon YTG (pos: 121 (361-363)) 
+   Dist_con=TTG (L), Phylo_con=TTG (L), Global_con=TTG (L)  
+       ✔️ processed by silent: Y{C,T} =>T (L)  
+
+   Original codon AAR (pos: 276 (826-828)) 
+   Dist_con=AAG (K), Phylo_con=AAA (K), Global_con=AAA (K)  
+       ✔️ processed by silent: R{A,G} =>A (K)  
+
+   Original codon ACR (pos: 280 (838-840)) 
+   Dist_con=ACA (T), Phylo_con=ACA (T), Global_con=ACA (T)  
+       ✔️ processed by silent: R{A,G} =>A (T)  
+
+   Original codon GCR (pos: 331 (991-993)) 
+   Dist_con=GCG (A), Phylo_con=GCG (A), Global_con=GCG (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+   Original codon RGG (pos: 560 (1678-1680)) 
+   Dist_con=GGG (G), Phylo_con=GGG (G), Global_con=GGG (G)  
+       ✔️ processed by silent: R{A,G} =>G (G)  
+
+   Original codon TSG (pos: 561 (1681-1683)) 
+   Dist_con=TCG (S), Phylo_con=TCG (S), Global_con=TCG (S)  
+       ✔️ processed by silent: S{C,G} =>C (S)  
+
+[H5N5|A/Herring_Gull/NS/FAV-0245-4/2024|EPI4019014|2024-04-05]
+   Original codon GYT (pos: 11 (31-33)) 
+   Dist_con=GTT (V), Phylo_con=GTT (V), Global_con=GTT (V)  
+       ✔️ processed by silent: Y{C,T} =>T (V)  
+
+[H5N1|A/chicken/USA/24-031666-024/2024|EPI3649920|2024-10-25]
+   Original codon RAG (pos: 2 (4-6)) 
+   Dist_con=GAG (E), Phylo_con=GAG (E), Global_con=GAG (E)  
+       ✔️ processed by silent: R{A,G} =>G (E)  
+
+   Original codon ACR (pos: 34 (100-102)) 
+   Dist_con=ACG (T), Phylo_con=ACG (T), Global_con=ACG (T)  
+       ✔️ processed by silent: R{A,G} =>G (T)  
+
+   Original codon GCY (pos: 102 (304-306)) 
+   Dist_con=GCT (A), Phylo_con=GCT (A), Global_con=GCT (A)  
+       ✔️ processed by silent: Y{C,T} =>T (A)  
+
+   Original codon TAY (pos: 380 (1138-1140)) 
+   Dist_con=TAC (Y), Phylo_con=TAC (Y), Global_con=TAC (Y)  
+       ✔️ processed by silent: Y{C,T} =>C (Y)  
+
+   Original codon GAY (pos: 392 (1174-1176)) 
+   Dist_con=GAT (D), Phylo_con=GAT (D), Global_con=GAT (D)  
+       ✔️ processed by silent: Y{C,T} =>T (D)  
+
+[H5N1|A/white-winged_scoter/Massachusetts/007607-001/2024|EPI3980223|2024-02-21]
+   Original codon RCT (pos: 230 (688-690)) 
+   Dist_con=GCT (A), Phylo_con=GCT (A), Global_con=GCT (A)  
+       ✔️ processed by silent: R{A,G} =>G (A)  
+
+[H5N5|A/Great_Black-Backed_Gull/NS/FAV-0393-1/2024|EPI4019086|2024-11-08]
+   Original codon GAR (pos: 85 (253-255)) 
+   Dist_con=GAA (E), Phylo_con=GAA (E), Global_con=GAA (E)  
+       ✔️ processed by silent: R{A,G} =>A (E)  
+
+[H5N5|A/Duck/Norway/2024-07-3002-2/2024|EPI3658351|2024-11-12]
+   Original codon AWA (pos: 352 (1054-1056)) 
+   Dist_con=ATA (I), Phylo_con=ATA (I), Global_con=ATA (I)  
+       ✔️ processed by silent: W{A,T} =>T (I)  
+
+[H5N1|A/laying-hen/Italy/25VIR768-1/2025|EPI3932284|2025-01-24]
+   Original codon GTR (pos: 226 (676-678)) 
+   Dist_con=GTA (V), Phylo_con=GTA (V), Global_con=GTA (V)  
+       ✔️ processed by silent: R{A,G} =>A (V)  
+

@@ -1,0 +1,21 @@
+[Cluster H5N1|A/turkey/Italy/24VIR8451-14/2024|EPI3597012|2024-10-01 - H5N1|A/Canada_Goose/Germany-BY/2025AI01283/2025|EPI4070972|2025-02-12]
+   Affected codons 8 ~ 9 
+      Original: --T ~ GCA
+      Repaired: --- ~ GCA
+      ✔️ Type: 1-3 -> 0-3  
+
+
+[Cluster H5N1|A/turkey/Italy/24VIR8451-14/2024|EPI3597012|2024-10-01 - H5N1|A/yellow-legged-gull/Italy/24VIR11136-1/2024|EPI3735912|2024-11-20]
+   Affected codons 5 ~ 6 
+      Original: G-- ~ -TT
+      Repaired: --- ~ GTT
+      ✔️ Type: 1-2 -> 0-3  
+
+
+[Cluster H5N1|A/turkey/Italy/24VIR8451-14/2024|EPI3597012|2024-10-01 - H5N1|A/Greylag_Goose/Germany-BY/2024AI04219/2024|EPI3688020|2024-09-10]
+   Affected codons 2 ~ 3 
+      Original: -AG ~ AAC
+      Repaired: GAG ~ AAC
+      ✔️ Type: 2-3 -> 3-3  
+
+
