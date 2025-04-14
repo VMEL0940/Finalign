@@ -22,6 +22,25 @@ To run the example, run
 python3 ./Finalign_CLI.py —input_fasta ../seq/H5Nx_2344b_recent_mafft_500.fasta —metadata_csv ../seq/H5Nx_2344b_recent_mafft_500_RBS_meta.csv —date YMD —out_dir ../result/ —out_name H5Nx_2344b_recent_mafft_500 —resolution_strategy d —resolution_mode clean —proceed_trimming no —n_threshold 0.02 —wgd 0.5
 ```
 
+# Dependencies
+To run FINALIGN, please create the Conda environment using the provided environment.yml file:
+```
+conda env create -f environment.yml
+conda activate FN
+```
+
+This will install all necessary dependencies, including:
+
+* Core libraries: numpy, pandas, scikit-learn, scipy, matplotlib, etc.
+
+* Bioinformatics tools: biopython, ete3, treeswift
+
+* Deep learning and transformer models: torch, fair-esm
+
+* Visualization: seaborn, yellowbrick, logomaker
+
+You can find the [environment.yml]() file in this repository.
+
 # Google Colab
 You can run FINALGIN on the Google Golab https://colab.research.google.com/drive/1FfuJgz5Mj_3WV1-_rJCrghUhJrWgVbQh?usp=sharing
 
