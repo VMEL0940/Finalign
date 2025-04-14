@@ -69,13 +69,11 @@ conda activate FN
 
 This will install all necessary dependencies, including:
 
-* Core libraries: numpy, pandas, scikit-learn, scipy, matplotlib, etc.
+* **Core libraries**: numpy, pandas, scikit-learn, scipy, matplotlib, etc.
 
-* Bioinformatics tools: biopython, ete3, treeswift
+* **Bioinformatics tools**: biopython, ete3, treeswift
 
-* Deep learning and transformer models: torch, fair-esm
-
-* Visualization: seaborn, yellowbrick, logomaker
+* **Visualization**: seaborn, yellowbrick, logomaker
 
 You can find the [environment.yml](environment.yml) file in this repository.
 
