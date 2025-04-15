@@ -41,7 +41,7 @@ optional arguments:
                                         raw = Applies resolution only when all consensus sources agree
   --proceed_trimming {yes,no}       : Trim sequences to ORF region based on start/stop codons (default: no)
   --n_threshold N_THRESHOLD         : Maximum allowed proportion of Ns (Default: 0.02)
-  --wgd WGD                         : Weight of genetic distance (0–1 (Default: 0.5); Weight of time automatically 1-wgd)
+  --wgd WGD                         : Weight of genetic diversity (0–1 (Default: 0.5); Weight of time distribution automatically 1-wgd)
 ```
 
 # Example
