@@ -62,10 +62,6 @@ import TreeCluster
 
 # %%
 def clean_sequences_with_ids(input_fasta, threshold):
-    """
-    Reads sequences from a FASTA file, cleans them, and returns a list of tuples containing IDs and cleaned sequences.
-    Sequences with more than the threshold percentage of 'N' are removed.
-    """
     valid_bases = set('ACGTYRSWKMBDHV')
     cleaned_sequences = []
 
@@ -81,9 +77,6 @@ def clean_sequences_with_ids(input_fasta, threshold):
     return cleaned_sequences
 
 def cons_matrix(cluster_sequences):
-    """
-    Given a list of sequences from a cluster, generate a consensus sequence.
-    """
     if not cluster_sequences:
         return ""
     
@@ -236,17 +229,6 @@ def assign_to_representatives(dist_matrix, labels, representatives):
 
 # Match all id with sequence 
 def sort_sequences_into_representative_clusters(sequences_with_ids, clusters):
-    """
-    Sorts sequences into clusters based on a representative-based clustering dictionary.
-
-    Parameters:
-        sequences_with_ids (list): List of tuples where each tuple contains (ID, sequence).
-        clusters (dict): Dictionary where each key is a representative ID, and values are lists of sequence IDs.
-
-    Returns:
-        dict: A dictionary where each key is a representative ID, and the value is a list of (ID, sequence) tuples
-              belonging to that representative's cluster.
-    """
     # Convert sequence list to dictionary for fast lookup
     seq_dict = {seq_id: seq for seq_id, seq in sequences_with_ids}
 
@@ -263,7 +245,7 @@ def sort_sequences_into_representative_clusters(sequences_with_ids, clusters):
 
 def subsample_and_assign_clusters(dist_matrix, labels, dates, n_clusters=5, sample_size=1, wgd=0.5, wtd=0.5):
     
-    print(f"Weight of genetic distance: {wgd}; Weight of time: {wtd}.")
+    print(f"Weight of genetic diversity: {wgd}; Weight of time distribution: {wtd}.")
     kmeans = KMeans(n_clusters=n_clusters, random_state=42)
     cluster_ids = kmeans.fit_predict(dist_matrix)
 
@@ -304,10 +286,6 @@ def subsample_and_assign_clusters(dist_matrix, labels, dates, n_clusters=5, samp
 
 # %%
 def convert_non_ACGT_to_gaps(seq_id_pairs):
-    """
-    Given a list of (seq_id, seq_str),
-    return a list of (seq_id, seq_str_with_gaps) where non-ACGT characters are replaced with '-'.
-    """
     sanitized = []
     for seq_id, seq_str in seq_id_pairs:
         new_seq = ''.join(ch if ch in "ACGT" else '-' for ch in seq_str)
@@ -315,18 +293,11 @@ def convert_non_ACGT_to_gaps(seq_id_pairs):
     return sanitized
 
 def write_sequences_to_fasta(seq_id_pairs, output_path):
-    """
-    Save a list of (id, seq) pairs into a FASTA file.
-    """
     with open(output_path, "w") as f:
         for seq_id, sequence in seq_id_pairs:
             f.write(f">{seq_id}\n{sequence}\n")
 
 def run_fasttree(fasta_path, output_nwk, is_nt=True):
-    """
-    Calls the FastTree binary (found in PATH) on a FASTA file and saves the tree to output_nwk.
-    Automatically detects the FastTree path from system environment.
-    """
     fasttree_path = shutil.which("FastTree")
     if fasttree_path is None:
         raise FileNotFoundError("❌ FastTree not found in PATH. Please install or link it to a directory like /usr/local/bin")
@@ -438,9 +409,6 @@ def build_fasttree_and_sweep_thresholds(
     return threshold_results, newick_path, tmp_mapping
 
 def relabel_newick_tree(tmp_newick_path, tmp_mapping, output_newick_path):
-    """
-    Relabel a Newick tree built with tmp1/tmp2... back to original names.
-    """
     tree = Tree(tmp_newick_path, format=1)
     for leaf in tree.iter_leaves():
         if leaf.name in tmp_mapping:
@@ -497,16 +465,6 @@ def detect_elbow_threshold(clusters_by_threshold):
 
 
 def sort_sequences_into_clusters(sequences_with_ids, cluster_dict):
-    """
-    Sort sequences into cluster groups based on TreeCluster results.
-
-    Parameters:
-        sequences_with_ids: List of (seq_id, sequence)
-        cluster_dict: Dict of {cluster_id: [seq_ids]}
-
-    Returns:
-        Dict of {cluster_id: [(seq_id, sequence)]}
-    """
     # Build quick lookup for ID → sequence
     id_to_seq = {seq_id: seq_str for seq_id, seq_str in sequences_with_ids}
 
@@ -644,13 +602,6 @@ codon_table = {
 }
 
 def resolve_ambiguous(amb, d, p, g, iupac_map, codon_table, codon_str, user):
-    """
-    Resolve ambiguous nucleotide using distance (d), phylogeny (p), and global (g) preferences.
-
-    Returns:
-        (str, str, str, str, str, str, str): 
-        (Resolved nucleotide, original amino acid, new amino acid, d_aa, p_aa, g_aa, resolution type)
-    """
     allowed_bases = set(iupac_map.get(amb, []))
     in_d, in_p, in_g = d in allowed_bases, p in allowed_bases, g in allowed_bases
 
@@ -722,21 +673,6 @@ for codon, aa in codon_table.items():
     aa_to_codons[aa].append(codon)
 
 def resolve_single_N_vote(seq, consensus_dist, consensus_phylo, global_consensus, codon_table, user, mode):
-    """
-    Resolve isolated 'N' bases using distance, phylo, and global consensus.
-
-    Args:
-        seq (str): Nucleotide sequence with possible isolated 'N'.
-        consensus_dist, consensus_phylo, global_consensus (str): Consensus sequences.
-        codon_table (dict): Codon-to-amino-acid dictionary.
-        user (str): Priority source when ambiguity remains ("d", "p", or "g").
-        mode (str): Mode for fallback behavior (e.g., "clean" allows user-based fallback).
-
-    Returns:
-        repaired_seq (str): Sequence with resolved Ns.
-        vote_log (list of tuples): List of
-            (resolved_nt, original_aa, new_aa, d_aa, p_aa, g_aa, resolution_type)
-    """
     vote_log = []
     seq = list(seq)
 
@@ -859,9 +795,6 @@ def generate_logs_for_single_N_vote(
     full_logs, remaining_logs,
     cluster_id
 ):
-    """
-    Generate logs from resolve_single_N_vote and append to provided log lists.
-    """
     full_log = [f"[{seq_id}]"]
 
     for pos, resolved_nt, original_aa, new_aa, d_aa, p_aa, g_aa, res_type in vote_log:
@@ -904,21 +837,15 @@ def generate_logs_for_single_N_vote(
 
 # %%
 def find_nearest_non_zero(index, triplets):
-    """Finds the nearest triplet with at least one non-gap base."""
     for n in range(index + 1, len(triplets)):
         if any(base != "-" for base in triplets[n]):  # Check for non-gap characters
             return n
     return None  # Return None if no valid triplet is found
 
 def count_non_gaps(triplet):
-    """Counts the number of non-gap bases in a triplet."""
     return sum(1 for base in triplet if base in "ACGT")
 
 def replace_multiple_N(seq, consensus_string):
-    """Replaces gaps (converted from N) in sequences based on the consensus sequence.
-       This version works on triplets. It first converts N to '-' and then, based on
-       the number of non-gap bases in the triplet, attempts a replacement.
-    """
     # Replace N with '-' to work with gaps
     seq = seq.replace("N", "-")
     triplets = [seq[i:i+3] for i in range(0, len(seq), 3)]
